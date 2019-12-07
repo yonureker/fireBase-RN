@@ -1,12 +1,10 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Button } from 'react-native';
 
 const LoginScreen = props => {
   return (
     <View style={styles.container}>
-      <Text>
-        LoginScreen
-      </Text>
+      <Button title="Sign In With Google" onPress={() => alert('Button Pressed')} />
     </View>
   )
 }
